@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Region
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          regiones
+    with_doctrine_route:   true
+
+    config:
+      list:
+        title: Lista de Regiones
+        display: [nombre, codigo]
+        actions: {}
+        object_actions: {}
+        batch_actions: {}
+      edit:
+        title: Editando "%%nombre%%"
+        actions: { _list: ~ }
+      new:
+        title: Nueva Región
+        actions: { _list: ~ }
+      form:
+        display: [nombre, codigo]

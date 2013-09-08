@@ -1,0 +1,2011 @@
+Region:
+  r15:
+    id: 15
+    codigo: "15"
+    nombre: "Región de Arica y Parinacota"
+  r1:
+    id: 1
+    codigo: "01"
+    nombre: "Región de Tarapacá"
+  r2:
+    id: 2
+    codigo: "02"
+    nombre: "Región de Antofagasta"
+  r3:
+    id: 3
+    codigo: "03"
+    nombre: "Región de Atacama"
+  r4:
+    id: 4
+    codigo: "04"
+    nombre: "Región de Coquimbo"
+  r5:
+    id: 5
+    codigo: "05"
+    nombre: "Región de Valparaíso"
+  r6:
+    id: 6
+    codigo: "06"
+    nombre: "Región del Libertador Gral. Bernardo O'Higgins"
+  r7:
+    id: 7
+    codigo: "07"
+    nombre: "Región del Maule"
+  r8:
+    id: 8
+    codigo: "08"
+    nombre: "Región del Biobío"
+  r9:
+    id: 9
+    codigo: "09"
+    nombre: "Región de la Araucanía"
+  r14:
+    id: 14
+    codigo: "14"
+    nombre: "Región de Los Ríos"
+  r10:
+    id: 10
+    codigo: "10"
+    nombre: "Región de Los Lagos"
+  r11:
+    id: 11
+    codigo: "11"
+    nombre: "Región Aisén del Gral. Carlos Ibáñez del Campo"
+  r12:
+    id: 12
+    codigo: "12"
+    nombre: "Región de Magallanes y de la Antártica Chilena"
+  r13:
+    id: 13
+    codigo: "13"
+    nombre: "Región Metropolitana de Santiago"
+
+Provincia:
+  p151:
+    codigo: "151"
+    nombre: Arica
+    Region: r15
+  p152:
+    codigo: "152"
+    nombre: Parinacota
+    Region: r15
+  p011:
+    codigo: "011"
+    nombre: Iquique
+    Region: r1
+  p014:
+    codigo: "014"
+    nombre: Tamarugal
+    Region: r1
+  p021:
+    codigo: "021"
+    nombre: Antofagasta
+    Region: r2
+  p022:
+    codigo: "022"
+    nombre: El Loa
+    Region: r2
+  p023:
+    codigo: "023"
+    nombre: Tocopilla
+    Region: r2
+  p031:
+    codigo: "031"
+    nombre: Copiapó
+    Region: r3
+  p032:
+    codigo: "032"
+    nombre: Chañaral
+    Region: r3
+  p033:
+    codigo: "033"
+    nombre: Huasco
+    Region: r3
+  p041:
+    codigo: "041"
+    nombre: Elqui
+    Region: r4
+  p042:
+    codigo: "042"
+    nombre: Choapa
+    Region: r4
+  p043:
+    codigo: "043"
+    nombre: Limarí
+    Region: r4
+  p051:
+    codigo: "051"
+    nombre: Valparaíso
+    Region: r5
+  p052:
+    codigo: "052"
+    nombre: Isla de Pascua
+    Region: r5
+  p053:
+    codigo: "053"
+    nombre: Los Andes
+    Region: r5
+  p054:
+    codigo: "054"
+    nombre: Petorca
+    Region: r5
+  p055:
+    codigo: "055"
+    nombre: Quillota
+    Region: r5
+  p056:
+    codigo: "056"
+    nombre: San Antonio
+    Region: r5
+  p057:
+    codigo: "057"
+    nombre: San Felipe de Aconcagua
+    Region: r5
+  p058:
+    codigo: "058"
+    nombre: Marga Marga
+    Region: r5
+  p061:
+    codigo: "061"
+    nombre: Cachapoal
+    Region: r6
+  p062:
+    codigo: "062"
+    nombre: Cardenal Caro
+    Region: r6
+  p063:
+    codigo: "063"
+    nombre: Colchagua
+    Region: r6
+  p071:
+    codigo: "071"
+    nombre: Talca
+    Region: r7
+  p072:
+    codigo: "062"
+    nombre: Cauquenes
+    Region: r7
+  p073:
+    codigo: "073"
+    nombre: Curicó
+    Region: r7
+  p074:
+    codigo: "074"
+    nombre: Linares
+    Region: r7
+  p081:
+    codigo: "081"
+    nombre: Concepción
+    Region: r8
+  p082:
+    codigo: "082"
+    nombre: Arauco
+    Region: r8
+  p083:
+    codigo: "083"
+    nombre: Biobío
+    Region: r8
+  p084:
+    codigo: "084"
+    nombre: Ñuble
+    Region: r8
+  p091:
+    codigo: "091"
+    nombre: Cautín
+    Region: r9
+  p092:
+    codigo: "092"
+    nombre: Malleco
+    Region: r9
+  p141:
+    codigo: "141"
+    nombre: Valdivia
+    Region: r14
+  p142:
+    codigo: "142"
+    nombre: Ranco
+    Region: r14
+  p101:
+    codigo: "101"
+    nombre: Llanquihue
+    Region: r10
+  p102:
+    codigo: "102"
+    nombre: Chiloé
+    Region: r10
+  p103:
+    codigo: "103"
+    nombre: Osorno
+    Region: r10
+  p104:
+    codigo: "104"
+    nombre: Palena
+    Region: r10
+  p111:
+    codigo: "111"
+    nombre: Coihaique
+    Region: r11
+  p112:
+    codigo: "112"
+    nombre: Aisén
+    Region: r12
+  p113:
+    codigo: "113"
+    nombre: Capitán Prat
+    Region: r11
+  p114:
+    codigo: "114"
+    nombre: General Carrera
+    Region: r11
+  p121:
+    codigo: "121"
+    nombre: Magallanes
+    Region: r12
+  p122:
+    codigo: "122"
+    nombre: Antártica Chilena
+    Region: r12
+  p123:
+    codigo: "123"
+    nombre: Tierra del Fuego
+    Region: r12
+  p124:
+    codigo: "124"
+    nombre: Última Esperanza
+    Region: r12
+  p131:
+    codigo: "131"
+    nombre: Santiago
+    Region: r13
+  p132:
+    codigo: "132"
+    nombre: Cordillera
+    Region: r13
+  p133:
+    codigo: "133"
+    nombre: Chacabuco
+    Region: r13
+  p134:
+    codigo: "134"
+    nombre: Maipo
+    Region: r13
+  p135:
+    codigo: "135"
+    nombre: Melipilla
+    Region: r13
+  p136:
+    codigo: "136"
+    nombre: Talagante
+    Region: r13
+
+Comuna:
+  c15101:
+    codigo: "15101"
+    nombre: Arica
+    Region: r15
+    Provincia: p151
+  c15102:
+    codigo: "15102"
+    nombre: Camarones
+    Region: r15
+    Provincia: p151
+  c15201:
+    codigo: "15201"
+    nombre: Putre
+    Region: r15
+    Provincia: p152
+  c15202:
+    codigo: "15202"
+    nombre: General Lagos
+    Region: r15
+    Provincia: p152
+  c01101:
+    codigo: "01101"
+    nombre: Iquique
+    Region: r1
+    Provincia: p011
+  c01107:
+    codigo: "01107"
+    nombre: Alto Hospicio
+    Region: r1
+    Provincia: p011
+  c01401:
+    codigo: "01401"
+    nombre: Pozo Almonte
+    Region: r1
+    Provincia: p014
+  c01402:
+    codigo: "01402"
+    nombre: Camiña
+    Region: r1
+    Provincia: p014
+  c01403:
+    codigo: "01403"
+    nombre: Colchane
+    Region: r1
+    Provincia: p014
+  c01404:
+    codigo: "01404"
+    nombre: Huara
+    Region: r1
+    Provincia: p014
+  c01405:
+    codigo: "01405"
+    nombre: Pica
+    Region: r1
+    Provincia: p014
+  c02101:
+    codigo: "02101"
+    nombre: Antofagasta
+    Region: r2
+    Provincia: p021
+  c02102:
+    codigo: "02102"
+    nombre: Mejillones
+    Region: r2
+    Provincia: p021
+  c02103:
+    codigo: "02103"
+    nombre: Sierra Gorda
+    Region: r2
+    Provincia: p021
+  c02104:
+    codigo: "02104"
+    nombre: Taltal
+    Region: r2
+    Provincia: p021
+  c02201:
+    codigo: "02201"
+    nombre: Calama
+    Region: r2
+    Provincia: p022
+  c02202:
+    codigo: "02202"
+    nombre: Ollagüe
+    Region: r2
+    Provincia: p022
+  c02203:
+    codigo: "02203"
+    nombre: San Pedro de Atacama
+    Region: r2
+    Provincia: p022
+  c02301:
+    codigo: "02301"
+    nombre: Tocopilla
+    Region: r2
+    Provincia: p023
+  c02302:
+    codigo: "02302"
+    nombre: María Elena
+    Region: r2
+    Provincia: p023
+  c03101:
+    codigo: "03101"
+    nombre: Copiapó
+    Region: r3
+    Provincia: p031
+  c03102:
+    codigo: "03102"
+    nombre: Caldera
+    Region: r3
+    Provincia: p031
+  c03103:
+    codigo: "03103"
+    nombre: Tierra Amarilla
+    Region: r3
+    Provincia: p031
+  c03201:
+    codigo: "03201"
+    nombre: Chañaral
+    Region: r3
+    Provincia: p032
+  c03202:
+    codigo: "03202"
+    nombre: Diego de Almagro
+    Region: r3
+    Provincia: p032
+  c03301:
+    codigo: "03301"
+    nombre: Vallenar
+    Region: r3
+    Provincia: p033
+  c03302:
+    codigo: "03302"
+    nombre: Alto del Carmen
+    Region: r3
+    Provincia: p033
+  c03303:
+    codigo: "03303"
+    nombre: Freirina
+    Region: r3
+    Provincia: p033
+  c03304:
+    codigo: "03304"
+    nombre: Huasco
+    Region: r3
+    Provincia: p033
+  c04101:
+    codigo: "04101"
+    nombre: La Serena
+    Region: r4
+    Provincia: p041
+  c04102:
+    codigo: "04102"
+    nombre: Coquimbo
+    Region: r4
+    Provincia: p041
+  c04103:
+    codigo: "04103"
+    nombre: Andacollo
+    Region: r4
+    Provincia: p041
+  c04104:
+    codigo: "04104"
+    nombre: La Higuera
+    Region: r4
+    Provincia: p041
+  c04105:
+    codigo: "04105"
+    nombre: Paiguano
+    Region: r4
+    Provincia: p041
+  c04106:
+    codigo: "04106"
+    nombre: Vicuña
+    Region: r4
+    Provincia: p041
+  c04201:
+    codigo: "04201"
+    nombre: Illapel
+    Region: r4
+    Provincia: p042
+  c04202:
+    codigo: "04202"
+    nombre: Canela
+    Region: r4
+    Provincia: p042
+  c04203:
+    codigo: "04203"
+    nombre: Los Vilos
+    Region: r4
+    Provincia: p042
+  c04204:
+    codigo: "04204"
+    nombre: Salamanca
+    Region: r4
+    Provincia: p042
+  c04301:
+    codigo: "04301"
+    nombre: Ovalle
+    Region: r4
+    Provincia: p043
+  c04301:
+    codigo: "04301"
+    nombre: Combarbalá
+    Region: r4
+    Provincia: p043
+  c04303:
+    codigo: "04303"
+    nombre: Monte Patria
+    Region: r4
+    Provincia: p043
+  c04304:
+    codigo: "04304"
+    nombre: Punitaqui
+    Region: r4
+    Provincia: p043
+  c04305:
+    codigo: "04305"
+    nombre: Río Hurtado
+    Region: r4
+    Provincia: p043
+  c05101:
+    codigo: "05101"
+    nombre: Valparaíso
+    Region: r5
+    Provincia: p051
+  c05102:
+    codigo: "05102"
+    nombre: Casablanca
+    Region: r5
+    Provincia: p051
+  c05103:
+    codigo: "05103"
+    nombre: Concón
+    Region: r5
+    Provincia: p051
+  c05104:
+    codigo: "05104"
+    nombre: Juan Fernández
+    Region: r5
+    Provincia: p051
+  c05105:
+    codigo: "05105"
+    nombre: Puchuncaví
+    Region: r5
+    Provincia: p051
+  c05106:
+    codigo: "05106"
+    nombre: Quintero
+    Region: r5
+    Provincia: p051
+  c05107:
+    codigo: "05107"
+    nombre: Viña del Mar
+    Region: r5
+    Provincia: p051
+  c05201:
+    codigo: "05201"
+    nombre: Isla de Pascua
+    Region: r5
+    Provincia: p052
+  c05301:
+    codigo: "05301"
+    nombre: Los Andes
+    Region: r5
+    Provincia: p053
+  c05302:
+    codigo: "05302"
+    nombre: Calle Larga
+    Region: r5
+    Provincia: p053
+  c05303:
+    codigo: "05303"
+    nombre: Rinconada
+    Region: r5
+    Provincia: p053
+  c05304:
+    codigo: "05304"
+    nombre: San Esteban
+    Region: r5
+    Provincia: p053
+  c05401:
+    codigo: "05401"
+    nombre: La Ligua
+    Region: r5
+    Provincia: p054
+  c05402:
+    codigo: "05402"
+    nombre: Cabildo
+    Region: r5
+    Provincia: p054
+  c05403:
+    codigo: "05403"
+    nombre: Papudo
+    Region: r5
+    Provincia: p054
+  c05404:
+    codigo: "05404"
+    nombre: Petorca
+    Region: r5
+    Provincia: p054
+  c05405:
+    codigo: "05405"
+    nombre: Zapallar
+    Region: r5
+    Provincia: p054
+  c05501:
+    codigo: "05501"
+    nombre: Quillota
+    Region: r5
+    Provincia: p055
+  c05502:
+    codigo: "05502"
+    nombre: Calera
+    Region: r5
+    Provincia: p055
+  c05503:
+    codigo: "05503"
+    nombre: Hijuelas
+    Region: r5
+    Provincia: p055
+  c05504:
+    codigo: "05504"
+    nombre: La Cruz
+    Region: r5
+    Provincia: p055
+  c05505:
+    codigo: "05505"
+    nombre: Nogales
+    Region: r5
+    Provincia: p055
+  c05601:
+    codigo: "05601"
+    nombre: San Antonio
+    Region: r5
+    Provincia: p056
+  c05602:
+    codigo: "05602"
+    nombre: Algarrobo
+    Region: r5
+    Provincia: p056
+  c05603:
+    codigo: "05603"
+    nombre: Cartagena
+    Region: r5
+    Provincia: p056
+  c05604:
+    codigo: "05604"
+    nombre: El Quisco
+    Region: r5
+    Provincia: p056
+  c05605:
+    codigo: "05605"
+    nombre: El Tabo
+    Region: r5
+    Provincia: p056
+  c05606:
+    codigo: "05606"
+    nombre: Santo Domingo
+    Region: r5
+    Provincia: p056
+  c05701:
+    codigo: "05701"
+    nombre: San Felipe
+    Region: r5
+    Provincia: p057
+  c05702:
+    codigo: "05702"
+    nombre: Catemu
+    Region: r5
+    Provincia: p057
+  c05703:
+    codigo: "05703"
+    nombre: Llaillay
+    Region: r5
+    Provincia: p057
+  c05704:
+    codigo: "05704"
+    nombre: Panquehue
+    Region: r5
+    Provincia: p057
+  c05705:
+    codigo: "05705"
+    nombre: Putaendo
+    Region: r5
+    Provincia: p057
+  c05706:
+    codigo: "05706"
+    nombre: Santa María
+    Region: r5
+    Provincia: p057
+  c05801:
+    codigo: "05801"
+    nombre: Quilpué
+    Region: r5
+    Provincia: p058
+  c05802:
+    codigo: "05802"
+    nombre: Limache
+    Region: r5
+    Provincia: p058
+  c05803:
+    codigo: "05803"
+    nombre: Olmué
+    Region: r5
+    Provincia: p058
+  c05804:
+    codigo: "05804"
+    nombre: Villa Alemana
+    Region: r5
+    Provincia: p058
+  c06101:
+    codigo: "06101"
+    nombre: Rancagua
+    Region: r6
+    Provincia: p061
+  c06102:
+    codigo: "06102"
+    nombre: Codegua
+    Region: r6
+    Provincia: p061
+  c06103:
+    codigo: "06103"
+    nombre: Coinco
+    Region: r6
+    Provincia: p061
+  c06104:
+    codigo: "06104"
+    nombre: Coltauco
+    Region: r6
+    Provincia: p061
+  c06105:
+    codigo: "06105"
+    nombre: Doñihue
+    Region: r6
+    Provincia: p061
+  c06106:
+    codigo: "06106"
+    nombre: Graneros
+    Region: r6
+    Provincia: p061
+  c06107:
+    codigo: "06107"
+    nombre: Las Cabras
+    Region: r6
+    Provincia: p061
+  c06108:
+    codigo: "06108"
+    nombre: Machalí
+    Region: r6
+    Provincia: p061
+  c06109:
+    codigo: "06109"
+    nombre: Malloa
+    Region: r6
+    Provincia: p061
+  c06110:
+    codigo: "06110"
+    nombre: Mostazal
+    Region: r6
+    Provincia: p061
+  c06111:
+    codigo: "06111"
+    nombre: Olivar
+    Region: r6
+    Provincia: p061
+  c06112:
+    codigo: "06112"
+    nombre: Peumo
+    Region: r6
+    Provincia: p061
+  c06113:
+    codigo: "06113"
+    nombre: Pichidegua
+    Region: r6
+    Provincia: p061
+  c06114:
+    codigo: "06114"
+    nombre: Quinta de Tilcoco
+    Region: r6
+    Provincia: p061
+  c06115:
+    codigo: "06115"
+    nombre: Rengo
+    Region: r6
+    Provincia: p061
+  c06116:
+    codigo: "06116"
+    nombre: Requínoa
+    Region: r6
+    Provincia: p061
+  c06117:
+    codigo: "06117"
+    nombre: San Vicente
+    Region: r6
+    Provincia: p061
+  c06201:
+    codigo: "06201"
+    nombre: Pichilemu
+    Region: r6
+    Provincia: p062
+  c06202:
+    codigo: "06202"
+    nombre: La Estrella
+    Region: r6
+    Provincia: p062
+  c06203:
+    codigo: "06203"
+    nombre: Litueche
+    Region: r6
+    Provincia: p062
+  c06204:
+    codigo: "06204"
+    nombre: Marchihue
+    Region: r6
+    Provincia: p062
+  c06205:
+    codigo: "06205"
+    nombre: Navidad
+    Region: r6
+    Provincia: p062
+  c06206:
+    codigo: "06206"
+    nombre: Paredones
+    Region: r6
+    Provincia: p062
+  c06301:
+    codigo: "06301"
+    nombre: San Fernando
+    Region: r6
+    Provincia: p063
+  c06302:
+    codigo: "06302"
+    nombre: Chépica
+    Region: r6
+    Provincia: p063
+  c06303:
+    codigo: "06303"
+    nombre: Chimbarongo
+    Region: r6
+    Provincia: p063
+  c06304:
+    codigo: "06304"
+    nombre: Lolol
+    Region: r6
+    Provincia: p063
+  c06305:
+    codigo: "06305"
+    nombre: Nancagua
+    Region: r6
+    Provincia: p063
+  c06306:
+    codigo: "06306"
+    nombre: Palmilla
+    Region: r6
+    Provincia: p063
+  c06307:
+    codigo: "06307"
+    nombre: Peralillo
+    Region: r6
+    Provincia: p063
+  c06308:
+    codigo: "06308"
+    nombre: Placilla
+    Region: r6
+    Provincia: p063
+  c06309:
+    codigo: "06309"
+    nombre: Pumanque
+    Region: r6
+    Provincia: p063
+  c06310:
+    codigo: "06310"
+    nombre: Santa Cruz
+    Region: r6
+    Provincia: p063
+  c07101:
+    codigo: "07101"
+    nombre: Talca
+    Region: r7
+    Provincia: p071
+  c07102:
+    codigo: "07102"
+    nombre: Constitución
+    Region: r7
+    Provincia: p071
+  c07103:
+    codigo: "07103"
+    nombre: Curepto
+    Region: r7
+    Provincia: p071
+  c07104:
+    codigo: "07104"
+    nombre: Empedrado
+    Region: r7
+    Provincia: p071
+  c07105:
+    codigo: "07105"
+    nombre: Maule
+    Region: r7
+    Provincia: p071
+  c07106:
+    codigo: "07106"
+    nombre: Pelarco
+    Region: r7
+    Provincia: p071
+  c07107:
+    codigo: "07107"
+    nombre: Pencahue
+    Region: r7
+    Provincia: p071
+  c07108:
+    codigo: "07108"
+    nombre: Río Claro
+    Region: r7
+    Provincia: p071
+  c07109:
+    codigo: "07109"
+    nombre: San Clemente
+    Region: r7
+    Provincia: p071
+  c07110:
+    codigo: "07110"
+    nombre: San Rafael
+    Region: r7
+    Provincia: p071
+  c07201:
+    codigo: "07201"
+    nombre: Cauquenes
+    Region: r7
+    Provincia: p072
+  c07202:
+    codigo: "07202"
+    nombre: Chanco
+    Region: r7
+    Provincia: p072
+  c07203:
+    codigo: "07203"
+    nombre: Pelluhue
+    Region: r7
+    Provincia: p072
+  c07301:
+    codigo: "07301"
+    nombre: Curicó
+    Region: r7
+    Provincia: p073
+  c07302:
+    codigo: "07302"
+    nombre: Hualañé
+    Region: r7
+    Provincia: p073
+  c07303:
+    codigo: "07303"
+    nombre: Licantén
+    Region: r7
+    Provincia: p073
+  c07304:
+    codigo: "07304"
+    nombre: Molina
+    Region: r7
+    Provincia: p073
+  c07305:
+    codigo: "07305"
+    nombre: Rauco
+    Region: r7
+    Provincia: p073
+  c07306:
+    codigo: "07306"
+    nombre: Romeral
+    Region: r7
+    Provincia: p073
+  c07307:
+    codigo: "07307"
+    nombre: Sagrada Familia
+    Region: r7
+    Provincia: p073
+  c07308:
+    codigo: "07308"
+    nombre: Teno
+    Region: r7
+    Provincia: p073
+  c07309:
+    codigo: "07309"
+    nombre: Vichuquén
+    Region: r7
+    Provincia: p073
+  c07401:
+    codigo: "07401"
+    nombre: Linares
+    Region: r7
+    Provincia: p074
+  c07402:
+    codigo: "07402"
+    nombre: Colbún
+    Region: r7
+    Provincia: p074
+  c07403:
+    codigo: "07403"
+    nombre: Longaví
+    Region: r7
+    Provincia: p074
+  c07404:
+    codigo: "07404"
+    nombre: Parral
+    Region: r7
+    Provincia: p074
+  c07405:
+    codigo: "07405"
+    nombre: Retiro
+    Region: r7
+    Provincia: p074
+  c07406:
+    codigo: "07406"
+    nombre: San Javier
+    Region: r7
+    Provincia: p074
+  c07407:
+    codigo: "07407"
+    nombre: Villa Alegre
+    Region: r7
+    Provincia: p074
+  c07408:
+    codigo: "07408"
+    nombre: Yerbas Buenas
+    Region: r7
+    Provincia: p074
+  c08101:
+    codigo: "08101"
+    nombre: Concepción
+    Region: r8
+    Provincia: p081
+  c08102:
+    codigo: "08102"
+    nombre: Coronel
+    Region: r8
+    Provincia: p081
+  c08103:
+    codigo: "08103"
+    nombre: Chiguayante
+    Region: r8
+    Provincia: p081
+  c08104:
+    codigo: "08104"
+    nombre: Florida
+    Region: r8
+    Provincia: p081
+  c08105:
+    codigo: "08105"
+    nombre: Hualqui
+    Region: r8
+    Provincia: p081
+  c08106:
+    codigo: "08106"
+    nombre: Lota
+    Region: r8
+    Provincia: p081
+  c08107:
+    codigo: "08107"
+    nombre: Penco
+    Region: r8
+    Provincia: p081
+  c08108:
+    codigo: "08108"
+    nombre: San Pedro de la Paz
+    Region: r8
+    Provincia: p081
+  c08109:
+    codigo: "08109"
+    nombre: Santa Juana
+    Region: r8
+    Provincia: p081
+  c08110:
+    codigo: "08110"
+    nombre: Talcahuano
+    Region: r8
+    Provincia: p081
+  c08111:
+    codigo: "08111"
+    nombre: Tomé
+    Region: r8
+    Provincia: p081
+  c08112:
+    codigo: "08112"
+    nombre: Hualpén
+    Region: r8
+    Provincia: p081
+  c08201:
+    codigo: "08201"
+    nombre: Lebu
+    Region: r8
+    Provincia: p082
+  c08202:
+    codigo: "08202"
+    nombre: Arauco
+    Region: r8
+    Provincia: p082
+  c08203:
+    codigo: "08203"
+    nombre: Cañete
+    Region: r8
+    Provincia: p082
+  c08204:
+    codigo: "08204"
+    nombre: Contulmo
+    Region: r8
+    Provincia: p082
+  c08205:
+    codigo: "08205"
+    nombre: Curanilahue
+    Region: r8
+    Provincia: p082
+  c08206:
+    codigo: "08206"
+    nombre: Los Álamos
+    Region: r8
+    Provincia: p082
+  c08207:
+    codigo: "08207"
+    nombre: Tirúa
+    Region: r8
+    Provincia: p082
+  c08301:
+    codigo: "08301"
+    nombre: Los Ángeles
+    Region: r8
+    Provincia: p083
+  c08302:
+    codigo: "08302"
+    nombre: Antuco
+    Region: r8
+    Provincia: p083
+  c08303:
+    codigo: "08303"
+    nombre: Cabrero
+    Region: r8
+    Provincia: p083
+  c08304:
+    codigo: "08304"
+    nombre: Laja
+    Region: r8
+    Provincia: p083
+  c08305:
+    codigo: "08305"
+    nombre: Mulchén
+    Region: r8
+    Provincia: p083
+  c08306:
+    codigo: "08306"
+    nombre: Nacimiento
+    Region: r8
+    Provincia: p083
+  c08307:
+    codigo: "08307"
+    nombre: Negrete
+    Region: r8
+    Provincia: p083
+  c08308:
+    codigo: "08308"
+    nombre: Quilaco
+    Region: r8
+    Provincia: p083
+  c08309:
+    codigo: "08309"
+    nombre: Quilleco
+    Region: r8
+    Provincia: p083
+  c08310:
+    codigo: "08310"
+    nombre: San Rosendo
+    Region: r8
+    Provincia: p083
+  c08311:
+    codigo: "08311"
+    nombre: Santa Bárbara
+    Region: r8
+    Provincia: p083
+  c08312:
+    codigo: "08312"
+    nombre: Tucapel
+    Region: r8
+    Provincia: p083
+  c08313:
+    codigo: "08313"
+    nombre: Yumbel
+    Region: r8
+    Provincia: p083
+  c08314:
+    codigo: "08314"
+    nombre: Alto Biobío
+    Region: r8
+    Provincia: p083
+  c08401:
+    codigo: "08401"
+    nombre: Chillán
+    Region: r8
+    Provincia: p084
+  c08402:
+    codigo: "08402"
+    nombre: Bulnes
+    Region: r8
+    Provincia: p084
+  c08403:
+    codigo: "08403"
+    nombre: Cobquecura
+    Region: r8
+    Provincia: p084
+  c08404:
+    codigo: "08404"
+    nombre: Coelemu
+    Region: r8
+    Provincia: p084
+  c08405:
+    codigo: "08405"
+    nombre: Coihueco
+    Region: r8
+    Provincia: p084
+  c08406:
+    codigo: "08406"
+    nombre: Chillán Viejo
+    Region: r8
+    Provincia: p084
+  c08407:
+    codigo: "08407"
+    nombre: El Carmen
+    Region: r8
+    Provincia: p084
+  c08408:
+    codigo: "08408"
+    nombre: Ninhue
+    Region: r8
+    Provincia: p084
+  c08409:
+    codigo: "08409"
+    nombre: Ñiquén
+    Region: r8
+    Provincia: p084
+  c08410:
+    codigo: "08410"
+    nombre: Pemuco
+    Region: r8
+    Provincia: p084
+  c08411:
+    codigo: "08411"
+    nombre: Pinto
+    Region: r8
+    Provincia: p084
+  c08412:
+    codigo: "08412"
+    nombre: Portezuelo
+    Region: r8
+    Provincia: p084
+  c08413:
+    codigo: "08413"
+    nombre: Quillón
+    Region: r8
+    Provincia: p084
+  c08414:
+    codigo: "08414"
+    nombre: Quirihue
+    Region: r8
+    Provincia: p084
+  c08415:
+    codigo: "08415"
+    nombre: Ránquil
+    Region: r8
+    Provincia: p084
+  c08416:
+    codigo: "08416"
+    nombre: San Carlos
+    Region: r8
+    Provincia: p084
+  c08417:
+    codigo: "08417"
+    nombre: San Fabián
+    Region: r8
+    Provincia: p084
+  c08418:
+    codigo: "08418"
+    nombre: San Ignacio
+    Region: r8
+    Provincia: p084
+  c08419:
+    codigo: "08419"
+    nombre: San Nicolás
+    Region: r8
+    Provincia: p084
+  c08420:
+    codigo: "08420"
+    nombre: Treguaco
+    Region: r8
+    Provincia: p084
+  c08421:
+    codigo: "08421"
+    nombre: Yungay
+    Region: r8
+    Provincia: p084
+  c09101:
+    codigo: "09101"
+    nombre: Temuco
+    Region: r9
+    Provincia: p091
+  c09102:
+    codigo: "09102"
+    nombre: Carahue
+    Region: r9
+    Provincia: p091
+  c09103:
+    codigo: "09103"
+    nombre: Cunco
+    Region: r9
+    Provincia: p091
+  c09104:
+    codigo: "09104"
+    nombre: Curarrehue
+    Region: r9
+    Provincia: p091
+  c09105:
+    codigo: "09105"
+    nombre: Freire
+    Region: r9
+    Provincia: p091
+  c09106:
+    codigo: "09106"
+    nombre: Galvarino
+    Region: r9
+    Provincia: p091
+  c09107:
+    codigo: "09107"
+    nombre: Gorbea
+    Region: r9
+    Provincia: p091
+  c09108:
+    codigo: "09108"
+    nombre: Lautaro
+    Region: r9
+    Provincia: p091
+  c09109:
+    codigo: "09109"
+    nombre: Loncoche
+    Region: r9
+    Provincia: p091
+  c09110:
+    codigo: "09110"
+    nombre: Melipeuco
+    Region: r9
+    Provincia: p091
+  c09111:
+    codigo: "09111"
+    nombre: Nueva Imperial
+    Region: r9
+    Provincia: p091
+  c09112:
+    codigo: "09112"
+    nombre: Padre las Casas
+    Region: r9
+    Provincia: p091
+  c09113:
+    codigo: "09113"
+    nombre: Perquenco
+    Region: r9
+    Provincia: p091
+  c09114:
+    codigo: "09114"
+    nombre: Pitrufquén
+    Region: r9
+    Provincia: p091
+  c09115:
+    codigo: "09115"
+    nombre: Pucón
+    Region: r9
+    Provincia: p091
+  c09116:
+    codigo: "09116"
+    nombre: Saavedra
+    Region: r9
+    Provincia: p091
+  c09117:
+    codigo: "09117"
+    nombre: Teodoro Schmidt
+    Region: r9
+    Provincia: p091
+  c09118:
+    codigo: "09118"
+    nombre: Toltén
+    Region: r9
+    Provincia: p091
+  c09119:
+    codigo: "09119"
+    nombre: Vilcún
+    Region: r9
+    Provincia: p091
+  c09120:
+    codigo: "09120"
+    nombre: Villarrica
+    Region: r9
+    Provincia: p091
+  c09121:
+    codigo: "09121"
+    nombre: Cholchol
+    Region: r9
+    Provincia: p091
+  c09201:
+    codigo: "09201"
+    nombre: Angol
+    Region: r9
+    Provincia: p092
+  c09202:
+    codigo: "09202"
+    nombre: Collipulli
+    Region: r9
+    Provincia: p092
+  c09203:
+    codigo: "09203"
+    nombre: Curacautín
+    Region: r9
+    Provincia: p092
+  c09204:
+    codigo: "09204"
+    nombre: Ercilla
+    Region: r9
+    Provincia: p092
+  c09205:
+    codigo: "09205"
+    nombre: Lonquimay
+    Region: r9
+    Provincia: p092
+  c09206:
+    codigo: "09206"
+    nombre: Los Sauces
+    Region: r9
+    Provincia: p092
+  c09207:
+    codigo: "09207"
+    nombre: Lumaco
+    Region: r9
+    Provincia: p092
+  c09208:
+    codigo: "09208"
+    nombre: Purén
+    Region: r9
+    Provincia: p092
+  c09209:
+    codigo: "09209"
+    nombre: Renaico
+    Region: r9
+    Provincia: p092
+  c09210:
+    codigo: "09210"
+    nombre: Traiguén
+    Region: r9
+    Provincia: p092
+  c09211:
+    codigo: "09211"
+    nombre: Victoria
+    Region: r9
+    Provincia: p092
+  c14101:
+    codigo: "14101"
+    nombre: Valdivia
+    Region: r14
+    Provincia: p141
+  c14102:
+    codigo: "14102"
+    nombre: Corral
+    Region: r14
+    Provincia: p141
+  c14103:
+    codigo: "14103"
+    nombre: Lanco
+    Region: r14
+    Provincia: p141
+  c14104:
+    codigo: "14104"
+    nombre: Los Lagos
+    Region: r14
+    Provincia: p141
+  c14105:
+    codigo: "14105"
+    nombre: Máfil
+    Region: r14
+    Provincia: p141
+  c14106:
+    codigo: "14106"
+    nombre: Mariquina
+    Region: r14
+    Provincia: p141
+  c14107:
+    codigo: "14107"
+    nombre: Paillaco
+    Region: r14
+    Provincia: p141
+  c14108:
+    codigo: "14108"
+    nombre: Panguipulli
+    Region: r14
+    Provincia: p141
+  c14201:
+    codigo: "14201"
+    nombre: La Unión
+    Region: r14
+    Provincia: p142
+  c14202:
+    codigo: "14202"
+    nombre: Futrono
+    Region: r14
+    Provincia: p142
+  c14203:
+    codigo: "14203"
+    nombre: Lago Ranco
+    Region: r14
+    Provincia: p142
+  c14204:
+    codigo: "14204"
+    nombre: Río Bueno
+    Region: r14
+    Provincia: p142
+  c10101:
+    codigo: "10101"
+    nombre: Puerto Montt
+    Region: r10
+    Provincia: p101
+  c10102:
+    codigo: "10102"
+    nombre: Calbuco
+    Region: r10
+    Provincia: p101
+  c10103:
+    codigo: "10103"
+    nombre: Cochamó
+    Region: r10
+    Provincia: p101
+  c10104:
+    codigo: "10104"
+    nombre: Fresia
+    Region: r10
+    Provincia: p101
+  c10105:
+    codigo: "10105"
+    nombre: Frutillar
+    Region: r10
+    Provincia: p101
+  c10106:
+    codigo: "10106"
+    nombre: Los Muermos
+    Region: r10
+    Provincia: p101
+  c10107:
+    codigo: "10107"
+    nombre: Llanquihue
+    Region: r10
+    Provincia: p101
+  c10108:
+    codigo: "10108"
+    nombre: Maullín
+    Region: r10
+    Provincia: p101
+  c10109:
+    codigo: "10109"
+    nombre: Puerto Varas
+    Region: r10
+    Provincia: p101
+  c10201:
+    codigo: "10201"
+    nombre: Castro
+    Region: r10
+    Provincia: p102
+  c10202:
+    codigo: "10202"
+    nombre: Ancud
+    Region: r10
+    Provincia: p102
+  c10203:
+    codigo: "10203"
+    nombre: Chonchi
+    Region: r10
+    Provincia: p102
+  c10204:
+    codigo: "10204"
+    nombre: Curaco de Vélez
+    Region: r10
+    Provincia: p102
+  c10205:
+    codigo: "10205"
+    nombre: Dalcahue
+    Region: r10
+    Provincia: p102
+  c10206:
+    codigo: "10206"
+    nombre: Puqueldón
+    Region: r10
+    Provincia: p102
+  c10207:
+    codigo: "10207"
+    nombre: Queilén
+    Region: r10
+    Provincia: p102
+  c10208:
+    codigo: "10208"
+    nombre: Quellón
+    Region: r10
+    Provincia: p102
+  c10209:
+    codigo: "10209"
+    nombre: Quemchi
+    Region: r10
+    Provincia: p102
+  c10210:
+    codigo: "10210"
+    nombre: Quinchao
+    Region: r10
+    Provincia: p102
+  c10301:
+    codigo: "10301"
+    nombre: Osorno
+    Region: r10
+    Provincia: p103
+  c10302:
+    codigo: "10302"
+    nombre: Puerto Octay
+    Region: r10
+    Provincia: p103
+  c10303:
+    codigo: "10303"
+    nombre: Purranque
+    Region: r10
+    Provincia: p103
+  c10304:
+    codigo: "10304"
+    nombre: Puyehue
+    Region: r10
+    Provincia: p103
+  c10305:
+    codigo: "10305"
+    nombre: Río Negro
+    Region: r10
+    Provincia: p103
+  c10306:
+    codigo: "10306"
+    nombre: San Juan de la Costa
+    Region: r10
+    Provincia: p103
+  c10307:
+    codigo: "10307"
+    nombre: San Pablo
+    Region: r10
+    Provincia: p103
+  c10401:
+    codigo: "10401"
+    nombre: Chaitén
+    Region: r10
+    Provincia: p104
+  c10402:
+    codigo: "10402"
+    nombre: Futaleufú
+    Region: r10
+    Provincia: p104
+  c10403:
+    codigo: "10403"
+    nombre: Hualaihué
+    Region: r10
+    Provincia: p104
+  c10404:
+    codigo: "10404"
+    nombre: Palena
+    Region: r10
+    Provincia: p104
+  c11101:
+    codigo: "11101"
+    nombre: Coihaique
+    Region: r11
+    Provincia: p111
+  c11102:
+    codigo: "11102"
+    nombre: Lago Verde
+    Region: r11
+    Provincia: p111
+  c11201:
+    codigo: "11201"
+    nombre: Aisén
+    Region: r11
+    Provincia: p112
+  c11202:
+    codigo: "11202"
+    nombre: Cisnes
+    Region: r11
+    Provincia: p112
+  c11203:
+    codigo: "11203"
+    nombre: Guaitecas
+    Region: r11
+    Provincia: p112
+  c11301:
+    codigo: "11301"
+    nombre: Cochrane
+    Region: r11
+    Provincia: p113
+  c11302:
+    codigo: "11302"
+    nombre: O’Higgins
+    Region: r11
+    Provincia: p113
+  c11303:
+    codigo: "11303"
+    nombre: Tortel
+    Region: r11
+    Provincia: p113
+  c11401:
+    codigo: "11401"
+    nombre: Chile Chico
+    Region: r11
+    Provincia: p114
+  c11402:
+    codigo: "11402"
+    nombre: Río Ibáñez
+    Region: r11
+    Provincia: p114
+  c12101:
+    codigo: "12101"
+    nombre: Punta Arenas
+    Region: r12
+    Provincia: p121
+  c12102:
+    codigo: "12102"
+    nombre: Laguna Blanca
+    Region: r12
+    Provincia: p121
+  c12103:
+    codigo: "12103"
+    nombre: Río Verde
+    Region: r12
+    Provincia: p121
+  c12104:
+    codigo: "12104"
+    nombre: San Gregorio
+    Region: r12
+    Provincia: p121
+  c12201:
+    codigo: "12201"
+    nombre: Cabo de Hornos (Ex Navarino)
+    Region: r12
+    Provincia: p122
+  c12202:
+    codigo: "12202"
+    nombre: Antártica
+    Region: r12
+    Provincia: p122
+  c12301:
+    codigo: "12301"
+    nombre: Porvenir
+    Region: r12
+    Provincia: p123
+  c12302:
+    codigo: "12302"
+    nombre: Primavera
+    Region: r12
+    Provincia: p123
+  c12303:
+    codigo: "12303"
+    nombre: Timaukel
+    Region: r12
+    Provincia: p123
+  c12401:
+    codigo: "12401"
+    nombre: Natales
+    Region: r12
+    Provincia: p124
+  c12402:
+    codigo: "12402"
+    nombre: Torres del Paine
+    Region: r12
+    Provincia: p124
+  c13101:
+    codigo: "13101"
+    nombre: Santiago
+    Region: r13
+    Provincia: p131
+  c13102:
+    codigo: "13102"
+    nombre: Cerrillos
+    Region: r13
+    Provincia: p131
+  c13103:
+    codigo: "13103"
+    nombre: Cerro Navia
+    Region: r13
+    Provincia: p131
+  c13104:
+    codigo: "13104"
+    nombre: Conchalí
+    Region: r13
+    Provincia: p131
+  c13105:
+    codigo: "13105"
+    nombre: El Bosque
+    Region: r13
+    Provincia: p131
+  c13106:
+    codigo: "13106"
+    nombre: Estación Central
+    Region: r13
+    Provincia: p131
+  c13107:
+    codigo: "13107"
+    nombre: Huechuraba
+    Region: r13
+    Provincia: p131
+  c13108:
+    codigo: "13108"
+    nombre: Independencia
+    Region: r13
+    Provincia: p131
+  c13109:
+    codigo: "13109"
+    nombre: La Cisterna
+    Region: r13
+    Provincia: p131
+  c13110:
+    codigo: "13110"
+    nombre: La Florida
+    Region: r13
+    Provincia: p131
+  c13111:
+    codigo: "13111"
+    nombre: La Granja
+    Region: r13
+    Provincia: p131
+  c13112:
+    codigo: "13112"
+    nombre: La Pintana
+    Region: r13
+    Provincia: p131
+  c13113:
+    codigo: "13113"
+    nombre: La Reina
+    Region: r13
+    Provincia: p131
+  c13114:
+    codigo: "13114"
+    nombre: Las Condes
+    Region: r13
+    Provincia: p131
+  c13115:
+    codigo: "13115"
+    nombre: Lo Barnechea
+    Region: r13
+    Provincia: p131
+  c13116:
+    codigo: "13116"
+    nombre: Lo Espejo
+    Region: r13
+    Provincia: p131
+  c13117:
+    codigo: "13117"
+    nombre: Lo Prado
+    Region: r13
+    Provincia: p131
+  c13118:
+    codigo: "13118"
+    nombre: Macul
+    Region: r13
+    Provincia: p131
+  c13119:
+    codigo: "13119"
+    nombre: Maipú
+    Region: r13
+    Provincia: p131
+  c13120:
+    codigo: "13120"
+    nombre: Ñuñoa
+    Region: r13
+    Provincia: p131
+  c13121:
+    codigo: "13121"
+    nombre: Pedro Aguirre Cerda
+    Region: r13
+    Provincia: p131
+  c13122:
+    codigo: "13122"
+    nombre: Peñalolén
+    Region: r13
+    Provincia: p131
+  c13123:
+    codigo: "13123"
+    nombre: Providencia
+    Region: r13
+    Provincia: p131
+  c13124:
+    codigo: "13124"
+    nombre: Pudahuel
+    Region: r13
+    Provincia: p131
+  c13125:
+    codigo: "13125"
+    nombre: Quilicura
+    Region: r13
+    Provincia: p131
+  c13126:
+    codigo: "13126"
+    nombre: Quinta Normal
+    Region: r13
+    Provincia: p131
+  c13127:
+    codigo: "13127"
+    nombre: Recoleta
+    Region: r13
+    Provincia: p131
+  c13128:
+    codigo: "13128"
+    nombre: Renca
+    Region: r13
+    Provincia: p131
+  c13129:
+    codigo: "13129"
+    nombre: San Joaquín
+    Region: r13
+    Provincia: p131
+  c13130:
+    codigo: "13130"
+    nombre: San Miguel
+    Region: r13
+    Provincia: p131
+  c13131:
+    codigo: "13131"
+    nombre: San Ramón
+    Region: r13
+    Provincia: p131
+  c13132:
+    codigo: "13132"
+    nombre: Vitacura
+    Region: r13
+    Provincia: p131
+  c13201:
+    codigo: "13201"
+    nombre: Puente Alto
+    Region: r13
+    Provincia: p132
+  c13202:
+    codigo: "13202"
+    nombre: Pirque
+    Region: r13
+    Provincia: p132
+  c13203:
+    codigo: "13203"
+    nombre: San José de Maipo
+    Region: r13
+    Provincia: p132
+  c13301:
+    codigo: "13301"
+    nombre: Colina
+    Region: r13
+    Provincia: p133
+  c13302:
+    codigo: "13302"
+    nombre: Lampa
+    Region: r13
+    Provincia: p133
+  c13303:
+    codigo: "13303"
+    nombre: Tiltil
+    Region: r13
+    Provincia: p133
+  c13401:
+    codigo: "13401"
+    nombre: San Bernardo
+    Region: r13
+    Provincia: p134
+  c13402:
+    codigo: "13402"
+    nombre: Buin
+    Region: r13
+    Provincia: p134
+  c13403:
+    codigo: "13403"
+    nombre: Calera de Tango
+    Region: r13
+    Provincia: p134
+  c13404:
+    codigo: "13404"
+    nombre: Paine
+    Region: r13
+    Provincia: p134
+  c13501:
+    codigo: "13501"
+    nombre: Melipilla
+    Region: r13
+    Provincia: p135
+  c13502:
+    codigo: "13502"
+    nombre: Alhué
+    Region: r13
+    Provincia: p135
+  c13503:
+    codigo: "13503"
+    nombre: Curacaví
+    Region: r13
+    Provincia: p135
+  c13504:
+    codigo: "13504"
+    nombre: María Pinto
+    Region: r13
+    Provincia: p135
+  c13505:
+    codigo: "13505"
+    nombre: San Pedro
+    Region: r13
+    Provincia: p135
+  c13601:
+    codigo: "13601"
+    nombre: Talagante
+    Region: r13
+    Provincia: p136
+  c13602:
+    codigo: "13602"
+    nombre: El Monte
+    Region: r13
+    Provincia: p136
+  c13603:
+    codigo: "13603"
+    nombre: Isla de Maipo
+    Region: r13
+    Provincia: p136
+  c13604:
+    codigo: "13604"
+    nombre: Padre Hurtado
+    Region: r13
+    Provincia: p136
+  c13605:
+    codigo: "13605"
+    nombre: Peñaflor
+    Region: r13
+    Provincia: p136

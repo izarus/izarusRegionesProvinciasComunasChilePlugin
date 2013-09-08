@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Comuna
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          comunas
+    with_doctrine_route:   true
+
+    config:
+      list:
+        title: Lista de Comunas
+        display: [nombre, codigo, Provincia, Region]
+        actions: {}
+        object_actions: {}
+        batch_actions: {}
+
+      edit:
+        title: Editando "%%nombre%%"
+        actions: { _list: ~ }
+      new:
+        title: Nueva Comuna
+        actions: { _list: ~ }
+
+      form:
+        display: [nombre, codigo, id_provincia, id_region]

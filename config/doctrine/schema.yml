@@ -1,0 +1,30 @@
+#######################################################
+# Plugin: izarusRegionesProvinciasComunasChilePlugin
+# Version: 0.1
+# Actualizado: 06/07/2013
+# Autor: David Vega Regollo
+#######################################################
+
+Region:
+  columns:
+    codigo:             { type: string, size: 2, notnull: true }
+    nombre:             { type: string, size: 150, notnull: true }
+
+Provincia:
+  columns:
+    codigo:             { type: string, size: 3, notnull: true }
+    nombre:             { type: string, size: 150, notnull: true }
+    region_id:          { type: integer, notnull: true }
+  relations:
+    Region:             { class: Region, local: region_id, foreign: id, foreignAlias: Provincias }
+
+Comuna:
+  columns:
+    codigo:             { type: string, size: 5, notnull: true }
+    nombre:             { type: string, size: 150, notnull: true }
+    region_id:          { type: integer, notnull: true }
+    provincia_id:       { type: integer, notnull: true }
+  relations:
+    Region:             { class: Region, local: region_id, foreign: id, foreignAlias: Comunas }
+    Provincia:          { class: Provincia, local: provincia_id, foreign: id, foreignAlias: Comunas }
+
