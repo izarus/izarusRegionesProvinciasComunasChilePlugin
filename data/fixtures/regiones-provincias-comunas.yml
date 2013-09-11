@@ -50,7 +50,7 @@ Region:
   r11:
     id: 11
     codigo: "11"
-    nombre: "Región Aisén del Gral. Carlos Ibáñez del Campo"
+    nombre: "Región Aysén del Gral. Carlos Ibáñez del Campo"
   r12:
     id: 12
     codigo: "12"
@@ -227,7 +227,7 @@ Provincia:
     Region: r11
   p112:
     codigo: "112"
-    nombre: Aisén
+    nombre: Aysén
     Region: r12
   p113:
     codigo: "113"
@@ -1656,7 +1656,7 @@ Comuna:
     Provincia: p111
   c11201:
     codigo: "11201"
-    nombre: Aisén
+    nombre: Aysén
     Region: r11
     Provincia: p112
   c11202:
