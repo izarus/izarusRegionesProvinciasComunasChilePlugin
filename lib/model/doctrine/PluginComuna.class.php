@@ -13,7 +13,7 @@
 abstract class PluginComuna extends BaseComuna
 {
   public function __toString() {
-    return $this->getNombre();
+    return ($this->getId())? $this->getNombre():'No especificada.';
   }
 
   public function getNombreConRegion($separador = ', ') {
