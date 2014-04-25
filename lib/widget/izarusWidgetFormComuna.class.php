@@ -1,5 +1,19 @@
 <?php
 
+/**
+ * izarusWidgetFormComuna
+ *
+ * Widget para seleccionar Region, luego Provincia y luego Comuna
+ * utilizando AJAX y selects.
+ *
+ * @author David Vega Regollo <david@izarus.cl>
+ *
+ *
+ * IMPORTANTE: ESTE WIDGET REQUIERE jCombo v3.0!!!!
+ * /web/js/jCombo.min.js
+ * Debe cargarse en la vista mediante <?php use_javascript(...) ?>
+ *
+ */
 class izarusWidgetFormComuna extends sfWidgetForm {
 
   public function configure($options = array(), $attributes = array()){
@@ -31,7 +45,8 @@ class izarusWidgetFormComuna extends sfWidgetForm {
 <script>
 
   // REGIONES
-  jQuery('#%s').jCombo('%s', {
+  jQuery('#%s').jCombo({
+    url: '%s',
     initial_text: '%s',
     dataType: 'json',
     first_optval: '',
@@ -39,7 +54,8 @@ class izarusWidgetFormComuna extends sfWidgetForm {
   });
 
   // PROVINCIAS
-  jQuery('#%s').jCombo('%s', {
+  jQuery('#%s').jCombo({
+    url: '%s',
     initial_text: '%s',
     dataType: 'json',
     parent: '#%s',
@@ -48,7 +64,8 @@ class izarusWidgetFormComuna extends sfWidgetForm {
   });
 
   // COMUNAS
-  jQuery('#%s').jCombo('%s', {
+  jQuery('#%s').jCombo({
+    url: '%s',
     initial_text: '%s',
     dataType: 'json',
     parent: '#%s',

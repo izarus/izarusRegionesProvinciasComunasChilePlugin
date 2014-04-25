@@ -12,7 +12,7 @@ class regiondataActions extends sfActions
     $regiones = RegionTable::getInstance()->findAll();
     $list = array();
     foreach ($regiones as $r) {
-      $list[$r->getId()] = $r->__toString();
+      $list[] = array('id' => $r->getId(), 'value' => $r->__toString());
     }
     return $this->renderText(json_encode($list));
   }
@@ -27,7 +27,7 @@ class regiondataActions extends sfActions
     $provincias = ProvinciaTable::getInstance()->findBy('region_id',$request->getParameter('region_id'));
     $list = array();
     foreach ($provincias as $p) {
-      $list[$p->getId()] = $p->__toString();
+      $list[] = array('id' => $p->getId(), 'value' => $p->__toString());
     }
     return $this->renderText(json_encode($list));
   }
@@ -43,7 +43,7 @@ class regiondataActions extends sfActions
     $comunas = ComunaTable::getInstance()->findBy('provincia_id',$request->getParameter('provincia_id'));
     $list = array();
     foreach ($comunas as $c) {
-      $list[$c->getId()] = $c->__toString();
+      $list[] = array('id' => $c->getId(), 'value' => $c->__toString());
     }
     return $this->renderText(json_encode($list));
   }
