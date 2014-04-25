@@ -44,6 +44,7 @@ class izarusWidgetFormComuna extends sfWidgetForm {
     sprintf(<<<EOF
 <script>
 
+jQuery(function (){
   // REGIONES
   jQuery('#%s').jCombo({
     url: '%s',
@@ -72,6 +73,7 @@ class izarusWidgetFormComuna extends sfWidgetForm {
     first_optval: '',
     selected_value: '%s'
   });
+});
 
 </script>
 EOF
