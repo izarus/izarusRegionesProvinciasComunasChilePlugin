@@ -40,7 +40,13 @@ class regiondataActions extends sfActions
    * @return jSON                Array, lista de regiones de la provincia
    */
   public function executeGetComunas(sfWebRequest $request) {
-    $comunas = ComunaTable::getInstance()->findBy('provincia_id',$request->getParameter('provincia_id'));
+    $comunas = array();
+    if ($request->getParameter('provincia_id')){
+      $comunas = ComunaTable::getInstance()->findBy('provincia_id',$request->getParameter('provincia_id'));
+    } elseif ($request->getParameter('region_id')) {
+      $comunas = ComunaTable::getInstance()->findBy('region_id',$request->getParameter('region_id'));
+    }
+
     $list = array();
     foreach ($comunas as $c) {
       $list[] = array('id' => $c->getId(), 'value' => $c->__toString());
